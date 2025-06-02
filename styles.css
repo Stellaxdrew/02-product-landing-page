@@ -6,15 +6,19 @@ body {
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
+  font-size: 18px; /* slightly larger base font size */
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   background-color: #eaf6ff; /* soft light blue background */
+  padding: 60px 20px; /* added padding */
+  background-image: linear-gradient(135deg, #dde4e9 0%, #d1c2e0 100%);
 }
 
 .hero img {
+  width: 250px; /* larger logo */
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -23,11 +27,14 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
+  font-size: 3em; /* much larger using em */
+  font-weight: bold;
 }
 
 .hero p {
   margin: 10px 0 20px;
   color: #555;
+  font-size: 20px; /* slightly larger description */
 }
 
 .hero button {
@@ -36,6 +43,8 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 1.1em; /* much larger using em */
+  padding: 0.8em 2em; /* scale padding with font size */
 }
 
 .hero button:hover {
@@ -48,7 +57,8 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 900px;
+  font-size: 1.25em; /* slightly larger description text */
 }
 
 /* How It Works Section */
@@ -61,7 +71,9 @@ body {
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  color: #0f3460;
+  font-size: 32px; /* larger h2 */
+  font-weight: bold;
 }
 
 .how-it-works ol {
@@ -94,6 +106,8 @@ strong {
 .features h2 {
   margin-bottom: 20px;
   color: #1a1a2e;
+  font-size: 32px; /* larger h2 */
+  font-weight: bold;
 }
 
 .features ul {
